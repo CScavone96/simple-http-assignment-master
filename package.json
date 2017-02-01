@@ -1,0 +1,22 @@
+{
+  "name": "simple-http-assignment-master",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+	"pretest": "eslint .src/ --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Clayton Scavone",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
